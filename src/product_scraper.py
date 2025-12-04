@@ -3,11 +3,11 @@ import re
 import csv
 import time
 from bs4 import BeautifulSoup
-from utilities import Utilities
+from utils import Utils
 
 class ProductScraper:
     def __init__(self, base_url):
-        self.utilities = Utilities()
+        self.utilities = Utils()
         self.base_url = base_url
         self.products = []
 
