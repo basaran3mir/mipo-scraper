@@ -39,10 +39,10 @@ class ProductScraper:
             soup = BeautifulSoup(page_content, 'html.parser')
 
             title_element = soup.find('h1', class_='product_title')
-            product_name = title_element.get_text(strip=True) if title_element else "Ürün adı bulunamadı"
+            product_name = title_element.get_text(strip=True) if title_element else "Product name not found"
 
             price_element = soup.select_one('p.price bdi')
-            price = price_element.get_text(strip=True).replace('₺', '').strip() if price_element else "Fiyat bulunamadı"
+            price = price_element.get_text(strip=True).replace('₺', '').strip() if price_element else "Price not found"
 
             print("Product name:", product_name)
             print("Product price:", price)
