@@ -25,7 +25,7 @@ These instructions will help you get a local copy of the project up and running 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/mipo-scraper.git
+git clone https://github.com/basaran3mir/mipo-scraper.git
 cd mipo-scraper
 ```
 
@@ -106,4 +106,4 @@ This project is covered under the license in the `LICENSE` file.
 
 ## Contact
 
-For questions or issues, please open an issue in this repository.
+For questions, feature requests, or bug reports, please open an issue in this repository.
