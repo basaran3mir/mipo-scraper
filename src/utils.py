@@ -2,7 +2,7 @@ class Utils:
     def __init__(self):
         pass
 
-    def listToUniqueList(self, list):
+    def list_to_unique_list(self, list):
         unique_list = []
         for element in list:
            if element not in unique_list:

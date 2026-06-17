@@ -29,7 +29,7 @@ class ProductScraper:
                 href = a_tag['href']
                 if pattern.match(href):
                     links.append(href)
-            unique_links = self.utilities.listToUniqueList(links)
+            unique_links = self.utilities.list_to_unique_list(links)
             return unique_links
         return []
 
