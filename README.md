@@ -218,13 +218,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**Author**: Basaran3mir
-
-- **GitHub**: [@basaran3mir](https://github.com/basaran3mir)
-- **Project Repository**: [MIPO Scraper](https://github.com/basaran3mir/mipo-scraper)
-
-For questions, issues, or suggestions, please feel free to open an issue on the GitHub repository or reach out directly.
-
----
-
-**Last Updated**: 2026-06-17
+For questions, feature requests, or bug reports, please open an issue in this repository.
